@@ -2,16 +2,16 @@
 What is the relationship between Country and Revenue
 
 ## Files (in chronological order of production)
-[Question3](/Question3)
-[mainCountryRev](/mainCountryRev)
-[CountryCustomers](/CountryCustomers)
-[CountryUnits](/CountryUnits)
-[FormingTargets](/FormingTargets)
-[submit3](/submit3)
-The AdventureWorks2019 file can be found [here](/https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms)
-
+- The AdventureWorks2019 file can be found [here](/https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms)
+- [Question3 (SQL Server Script)](/Question3.sql)
+- [mainCountryRev](/mainCountryRev.csv)
+- [CountryCustomers](/CountryCustomers.csv)
+- [CountryUnits](/CountryUnits.csv)
+- [FormingTargets](/FormingTargets.csv)
+- [submit3 (Python Script)](/submit3.py)
+  
 ## Process
-###Primary Analysis
+### Primary Analysis
 Countries were already identified in Question 1. Only three years of sales data (June 2011
 - May 2014) was used to answer the question as these dates overlapped in the tables
 joined; Sales.SalesOrderHeader and Sales.CurrencyRateID. Revenue was
@@ -23,7 +23,7 @@ took place). To ensure currency exchange fit, the aggregated revenue for each Co
 was also calculated and evaluated against underlying drivers for revenue. A bar graph
 was sufficient in representing this revenue by country as performed in Question 1.
 
-###Follow-Up Analysis
+### Follow-Up Analysis
 The operational footprint (number of stores, customers) and sales volume (units sold)
 were distributed amongst each country and graphed against revenue. It was found that the
 converted revenues in USD were a better fit when ordered. This was most evidenced by
@@ -84,6 +84,6 @@ discrepancy between SalesOrderDetails and ListPrice. This must be followed up to
 understand why the product price was not sold at the price in which it was set to be sold.
 
 ## Visuals
-Figure 3.1
-Figure 3.2
-Figure 3.3
+-[Figure 3.1](/Fig1.png)
+-[Figure 3.2](/Fig2.png)
+-[Figure 3.3](/Fig3.png)
