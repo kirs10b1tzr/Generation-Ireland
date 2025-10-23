@@ -1,5 +1,5 @@
 ## Question
-What is the relationship between Country and Revenue
+What is the relationship between Country and Revenue?
 
 ## Files (in chronological order of production)
 - The AdventureWorks2019 file can be found [here](/https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms)
@@ -12,8 +12,8 @@ What is the relationship between Country and Revenue
   
 ## Process
 ### Primary Analysis
-Countries were already identified in Question 1. Only three years of sales data (June 2011
-- May 2014) was used to answer the question as these dates overlapped in the tables
+Countries were already identified in Question 1. Only three years of sales data (June 2011- 
+May 2014) was used to answer the question as these dates overlapped in the tables
 joined; Sales.SalesOrderHeader and Sales.CurrencyRateID. Revenue was
 operationalised as SubTotal as it SubTotal = TotalDue- (TaxAmt + Freight). A crucial
 methodological step was converting revenue to USD to ensure a fair comparison. It was
@@ -84,6 +84,6 @@ discrepancy between SalesOrderDetails and ListPrice. This must be followed up to
 understand why the product price was not sold at the price in which it was set to be sold.
 
 ## Visuals
--[Figure 3.1](/Fig1.png)
--[Figure 3.2](/Fig2.png)
--[Figure 3.3](/Fig3.png)
+- [Figure 3.1](/Fig1.png)
+- [Figure 3.2](/Fig2.png)
+- [Figure 3.3](/Fig3.png)
