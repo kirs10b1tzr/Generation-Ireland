@@ -2,7 +2,7 @@
 What is the relationship between Country and Revenue?
 
 ## Files (in chronological order of production)
-- The AdventureWorks2019 file can be found [here](/https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms)
+- The AdventureWorks2019 file can be found [here](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms)
 - [Question3 (SQL Server Script)](/Question3.sql)
 - [mainCountryRev](/mainCountryRev.csv)
 - [CountryCustomers](/CountryCustomers.csv)
